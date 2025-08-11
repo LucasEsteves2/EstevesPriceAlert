@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.Api", "EstevesPriceAlert.Api\EstevesPriceAlert.Api.csproj", "{0594FFFB-19E1-4E44-8844-9C1140FC8CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.Application", "EstevesPriceAlert.Application\EstevesPriceAlert.Application.csproj", "{9BFCAD80-61C1-4EEF-B6ED-E5D83E394D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.InfraEstructure", "EstevesPriceAlert.InfraEstructure\EstevesPriceAlert.InfraEstructure.csproj", "{6FA4EFC0-D1BE-4A51-8955-CECC6B66445C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.Core", "EstevesPriceAlert.Core\EstevesPriceAlert.Core.csproj", "{184EECBE-35B1-4EF1-BA73-B6CD8DE24C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyPriceNotificationFunction", "VerifyPriceNotificationFunction\VerifyPriceNotificationFunction.csproj", "{7A363523-55B6-4164-924F-28D2EB23613D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0594FFFB-19E1-4E44-8844-9C1140FC8CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0594FFFB-19E1-4E44-8844-9C1140FC8CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0594FFFB-19E1-4E44-8844-9C1140FC8CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0594FFFB-19E1-4E44-8844-9C1140FC8CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFCAD80-61C1-4EEF-B6ED-E5D83E394D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFCAD80-61C1-4EEF-B6ED-E5D83E394D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFCAD80-61C1-4EEF-B6ED-E5D83E394D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFCAD80-61C1-4EEF-B6ED-E5D83E394D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA4EFC0-D1BE-4A51-8955-CECC6B66445C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA4EFC0-D1BE-4A51-8955-CECC6B66445C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA4EFC0-D1BE-4A51-8955-CECC6B66445C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA4EFC0-D1BE-4A51-8955-CECC6B66445C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184EECBE-35B1-4EF1-BA73-B6CD8DE24C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184EECBE-35B1-4EF1-BA73-B6CD8DE24C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184EECBE-35B1-4EF1-BA73-B6CD8DE24C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184EECBE-35B1-4EF1-BA73-B6CD8DE24C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A363523-55B6-4164-924F-28D2EB23613D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A363523-55B6-4164-924F-28D2EB23613D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A363523-55B6-4164-924F-28D2EB23613D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A363523-55B6-4164-924F-28D2EB23613D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

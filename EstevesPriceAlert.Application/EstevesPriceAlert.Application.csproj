@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EstevesPriceAlert.Core\EstevesPriceAlert.Core.csproj" />
+    <ProjectReference Include="..\EstevesPriceAlert.InfraEstructure\EstevesPriceAlert.InfraEstructure.csproj" />
+	 <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Dtos\UserOffertInput.cs" />
+  </ItemGroup>
+
+</Project>
