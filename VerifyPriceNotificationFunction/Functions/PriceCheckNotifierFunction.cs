@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 
-namespace VerifyPriceNotificationFunction.Functions;
+namespace EstevesPriceAlert.Functions.Functions;
 
 public class PriceCheckNotifierFunction
 {
@@ -79,7 +79,7 @@ public class PriceCheckNotifierFunction
         var urls = (IEnumerable<string>)(notification?.ProductUrls ?? Array.Empty<string>());
         var firstUrl = urls.FirstOrDefault() ?? "https://www.google.com"; // se quiser, a primeira URL
         var productName = (string?)notification?.ProductName ?? "Produto monitorado";
-        var targetText = (notification?.TargetPrice > 0 ? ((decimal)notification.TargetPrice).ToString("C") : "—");
+        var targetText = notification?.TargetPrice > 0 ? ((decimal)notification.TargetPrice).ToString("C") : "—";
 
         // HTML bonitão (compatível com e-mail)
         string htmlBody = $@"

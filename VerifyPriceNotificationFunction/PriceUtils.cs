@@ -1,7 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System.Globalization;
 
-namespace VerifyPriceNotificationFunction;
+namespace EstevesPriceAlert.Functions;
 
 public static class PriceUtils
 {

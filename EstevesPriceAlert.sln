@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.InfraEstr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.Core", "EstevesPriceAlert.Core\EstevesPriceAlert.Core.csproj", "{184EECBE-35B1-4EF1-BA73-B6CD8DE24C3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyPriceNotificationFunction", "VerifyPriceNotificationFunction\VerifyPriceNotificationFunction.csproj", "{7A363523-55B6-4164-924F-28D2EB23613D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstevesPriceAlert.Functions", "VerifyPriceNotificationFunction\EstevesPriceAlert.Functions.csproj", "{7A363523-55B6-4164-924F-28D2EB23613D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
